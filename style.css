@@ -1,0 +1,106 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+   
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0452aa;
+    color: white;
+  }
+head {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0d4b92;
+    
+}
+body {
+    background-color: #5a7db3;
+    color: #FFFFFF;
+    font-style: normal;
+    font-family: "Source Sans Pro",Sans-serif, Serif ;
+}
+h1 {
+    color: #fffefe;
+    text-align: center;
+    font: Source Sans Pro 160% fantasy;
+    /* background-color: #0452aa;
+    background-size: 300px 500px; */
+}
+h2 {
+  color: #fffefe;
+  text-align: center;
+  font: Source Sans Pro 160% fantasy;
+
+}
+h3 {
+  color: #fffefe;
+  text-align: center;
+  font: Source Sans Pro 160% fantasy;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+p {
+  background-color: lightgrey;
+  width: 1500px;
+  align-self: center;
+  text-align: center;
+  color:rgb(14, 13, 13);
+  border: 6px solid rgb(116, 129, 116);
+  padding: 50px;
+  margin: 100px 20px;
+}
+li>a {
+    color:rgb(255, 254, 254)
+}
+table, th, td {
+    border: 1px solid rgb(66, 65, 65);
+    color: #fffefe;
+    text-align: left;
+    font: Source Sans Pro 160% fantasy;
+}
+  
+footer {
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
